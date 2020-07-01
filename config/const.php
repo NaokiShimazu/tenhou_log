@@ -1,0 +1,26 @@
+<?php
+return[
+    'GRADE_NUMBER' => [
+            '新人' => ['number' => 0, 'start' => 0, 'upgrade' => 20],
+            '９級' => ['number' => 1, 'start' => 0, 'upgrade' => 20],
+            '８級' => ['number' => 2, 'start' => 0, 'upgrade' => 20],
+            '７級' => ['number' => 3, 'start' => 0, 'upgrade' => 20],
+            '６級' => ['number' => 4, 'start' => 0, 'upgrade' => 40],
+            '５級' => ['number' => 5, 'start' => 0, 'upgrade' => 60],
+            '４級' => ['number' => 6, 'start' => 0, 'upgrade' => 80],
+            '３級' => ['number' => 7, 'start' => 0, 'upgrade' => 100],
+            '２級' => ['number' => 8, 'start' => 0, 'upgrade' => 100],
+            '１級' => ['number' => 9, 'start' => 0, 'upgrade' => 100],
+            '初段' => ['number' => 10, 'start' => 200, 'upgrade' => 400],
+            '二段' => ['number' => 11, 'start' => 400, 'upgrade' => 800],
+            '三段' => ['number' => 12, 'start' => 600, 'upgrade' => 1200],
+            '四段' => ['number' => 13, 'start' => 800, 'upgrade' => 1600],
+            '五段' => ['number' => 14, 'start' => 1000, 'upgrade' => 2000],
+            '六段' => ['number' => 15, 'start' => 1200, 'upgrade' => 2400],
+            '七段' => ['number' => 16, 'start' => 1400, 'upgrade' => 2800],
+            '八段' => ['number' => 17, 'start' => 1600, 'upgrade' => 3200],
+            '九段' => ['number' => 18, 'start' => 1800, 'upgrade' => 3600],
+            '十段' => ['number' => 19, 'start' => 2000, 'upgrade' => 4000],
+            '天鳳位' => ['number' => 20],
+    ],
+];

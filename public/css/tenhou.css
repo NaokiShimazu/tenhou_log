@@ -1,0 +1,92 @@
+html{
+    width: 100%;
+    font-family: '游ゴシック体';
+}
+body{
+    font-size: 15px;
+}
+td{
+    position: relative;
+    padding: 10px 4px;
+    text-align: center;
+    /* border: 1px solid #14CFA0; */
+    white-space: nowrap;
+}
+th{
+    font-size: 80%;
+}
+table{
+    width: 650px;
+    border-collapse: collapse;
+    margin: 10px;
+    /* padding: 0; */
+}
+.head{
+    border-bottom: solid #4DA99B 2px;
+}
+.badge{
+    margin: 1px;
+    display: inline-block;
+    padding: .7em 1em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.badge-success{
+    /* background-color: #14CFA0; */
+    background-color: #ED5565;
+    color: #ffffff;
+}
+.badge-primary{
+    background-color: #406AFF;
+    color: #ffffff;
+}
+.badge-danger{
+    /* background-color: #ED5565; */
+    background-color: #406AFF;
+    color: #ffffff;
+}
+.success{
+    /* color: #14CFA0; */
+    color: #ED5565;
+}
+.danger{
+    /* color: #ED5565; */
+    color: #406AFF;
+}
+.big{
+    font-size: 140%;
+    font-weight: lighter;
+}
+.bold{
+    font-weight: 900!important;
+}
+i{
+    position: absolute;
+    vertical-align: bottom;
+}
+.center{
+    text-align: center;
+}
+.grade-icon{
+    top: 9px;
+    font-size: 30px!important;
+}
+#status{
+    width: 100px;
+}
+#tenhou_name{
+    width: 154px;
+}
+#grade{
+    width: 130px;
+    padding: 0 30px;
+}
+/* .vertical-bottom{
+    vertical-align: bottom;
+} */
